@@ -51,6 +51,7 @@ def main():
     masterChild = createChildProcess('master.py',MCOM)
     slaveChild  = createChildProcess('sensor.py',SCOM)
     
+    toplevel.terminate()
     print('Complete.')
         
     
